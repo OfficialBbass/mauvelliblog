@@ -1,0 +1,25 @@
+
+
+$primaryBtn: rgb(240, 160, 1);
+$primary-color	: #ffba00;
+$text-color		: #777777;
+$primary-color2	: #ff6c00;
+$primary-color3	: #828bb3;
+$title-color	: #eee5e5;
+$text-color		: #777777;
+$baseColor: #c5322d; 
+$dip: #222222;
+$pfont: #777777;
+$white			: #fff;
+$black			: #000;
+$offwhite: #fcfcfc;
+
+@import "./header";
+@import "./carousel";
+@import "./blogarea";
+@import "./reset";
+@import "./login";
+@import "./signup";
+@import "./footer";
+
+@import "../node_modules/bootstrap/scss/bootstrap";
