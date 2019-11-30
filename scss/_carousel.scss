@@ -1,12 +1,12 @@
 
 .cta-100 {
-    margin-top: 25px;
-    padding-left: 8%;
-    padding-top: 7%;
+    margin-top: 0.5%;
+    padding-left: 5%;
+    padding-top: 5%;
   }
-  .col-md-4{
-      padding-bottom:20px;
-  }
+  // .col-md-4{
+  //     padding-bottom:20px;
+  // }
   
   .white {
     color: #fff !important;
@@ -83,6 +83,8 @@
   
   .item-box-blog-date span.mon {
     font-size: 18px;
+    margin-left: 80px;
+    margin-right: 110px;
   }
   
   .item-box-blog-date span.day {
@@ -127,7 +129,6 @@
   .btn.bg-blue-ui.white.read {
     cursor: pointer;
     padding: 4px 20px;
-    float: left;
     margin-top: 10px;
   }
   

@@ -1,9 +1,9 @@
-body{
-	margin:0;
-	color:#444;
-	background:#e2e7eb;
-	font:300 18px/18px Roboto, sans-serif;
-}
+// body{
+// 	margin:0;
+// 	color:#444;
+// 	background:#e2e7eb;
+// 	font:300 18px/18px Roboto, sans-serif;
+// }
 *,:after,:before{box-sizing:border-box}
 .pull-left{float:left}
 .pull-right{float:right}
@@ -77,8 +77,8 @@ body{
 .author-quote-wrap .author-photo:after{
 	top:15px;
 	left:60px;
-	font-size:72px;
-	line-height:72px;
+	font-size:50px;
+	line-height:50px;
 	position:absolute;
 	font-family:serif;
 	content:open-quote;
@@ -190,14 +190,14 @@ body{
 	text-transform:uppercase;
 }
 .quote-content .quote-text{
-	font-size:48px;
-	font-weight:900;
+	font-size:40px;
+	font-weight:500;
 	line-height:55px;
 }
 .quote-content .quote-author{
 	bottom:15px;
 	font-size:14px;
-	font-weight:500;
+	font-weight:300;
 	position:absolute;
 }
 .quote-content .quote-author:before{
