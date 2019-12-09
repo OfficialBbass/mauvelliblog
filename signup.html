@@ -12,38 +12,46 @@
     <title>Mauvelli</title>
   </head>
   <body>
-        <header>
-                <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                  <a class="navbar-brand" href="index.html">
-                    <img class="navbar-brand" src="img/logo.jpg" id="logo_custom" width="100px" alt="logo">
-                  </a>
-                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavD" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-                  <div class="collapse navbar-collapse" id="navbarNavD">
-                    <ul class="navbar-nav ml-auto">
-                      <li class="nav-item active">
-                        <a class="nav-link" href="index.html">LATEST</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#">BUSINESS of BRAND</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#">REVIEWS</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#">ADVERTISE</a>
-                      </li> 
-                      <li class="nav-item">
-                        <a class="nav-link" href="login.html">LOGIN</a>
-                      </li> 
-                      <li class="nav-item">
-                        <a class="nav-link" href="signup.html">SIGN-UP <span class="sr-only">(current)</span></a>
-                      </li>     
-                    </ul>
-                  </div>
-                </nav>
-              </header>
+
+      <header>
+        <nav class="navbar fixed-top navbar-expand-md custom-navbar navbar-dark">
+           <a class="navbar-brand" href="index.html">
+              <img class="navbar-brand" src="img/logo.jpg" id="logo_custom" width="25%"  alt="logo">
+           </a> 
+               <!-- <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarNavD" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                   <span class="navbar-toggler-icon "></span>
+               </button> -->
+               <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavD" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button> -->
+                 <div class="collapse navbar-collapse " id="collapsibleNavbar">
+                     <ul class="navbar-nav ml-auto ">
+                       <li class="nav-item">
+                         <a class="nav-link" href="index.html"><b>LATESTS</b></a>
+                       </li>
+                       <li class="nav-item">
+                         <a class="nav-link" href="bob.html"><b>BUSINESS of BRAND</b></a>
+                       </li>
+                       <li class="nav-item">
+                         <a class="nav-link" href="#"><b>REVIEWS</b></a>
+                       </li> 
+                       <li class="nav-item">
+                        <a class="nav-link" href="Contact.html"><b>Contact Us</b></a>
+                       </li>
+                       <li class="nav-item">
+                          <a class="nav-link" href="#"><b>ADVERTISE</b></a>
+                        </li> 
+                        <li class="nav-item">
+                          <a class="nav-link" href="login.html"><b>LOGIN</b></a>
+                        </li> 
+                        <li class="nav-item active">
+                          <a class="nav-link" href="signup.html"><b>SIGN-UP</b><span class="sr-only">(current)</span></a>
+                        </li>    
+                     </ul>
+                 </div>  
+           </nav>
+        </header>
+  
   <div class="col-md-12">
       <div class="signup-form">
         <form action="" method="">
@@ -73,7 +81,64 @@
         </form>
         <div class="text-center">Already have an account? <a href="login.html">Login here</a></div>
       </div>
-    </div>       
+    </div>   
+    
+    <footer class="container-fluid bg-grey py-5">
+        <div class="container">
+           <div class="row">
+              <div class="col-md-6">
+                 <div class="row">
+                    <div class="col-md-6 ">
+                       <div class="logo-part">
+                          <img src="img/logo.jpg" class="w-50 logo-footer" >
+                          <p>Mauvelli Creatives Uses Technology to solve the problem of fashion in Nigeria. </p>
+                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium inventore repudiandae aliquam vel veritatis ullam. Quia totam, vero deserunt cumque maiores quod quo at unde illo, ex officia. Ab, ipsum!</p>
+                       </div>
+                    </div>
+                    <div class="col-md-6 px-4">
+                       <a href="#" class="btn-footer"> Contact Us</a>
+                       <br>
+                       <p>Phone no : +232 343 5654</p>
+                       <p>MauvelliCreatives@mauvelli.com</p>
+                    </div>
+                 </div>
+              </div>
+              <div class="col-md-6">
+                 <div class="row">
+                    <div class="col-md-6 ">
+                       <h6>Quick Links</h6>
+                       <div class="row ">
+                          <div class="col-md-6">
+                             <ul>
+                                <li> <a href="#"> Home</a> </li>
+                                <li> <a href="#"> About</a> </li>
+                                <li> <a href="#"> Team</a> </li>
+                                <li> <a href="#"> Help</a> </li>
+                                <li> <a href="#"> Contact</a> </li>
+                             </ul>
+                          </div>
+                       </div>
+                    </div>
+                    <div class="col-md-6 ">
+                       <h6> Newsletter</h6>
+                       <div class="social">
+                          <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                          <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                          <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                       </div>
+                       <form class="form-footer my-3">
+                          <input type="text"  placeholder="search here...." name="search">
+                          <input type="button" value="Go" >
+                       </form>
+                       <p>Copyright @ Mauvelli Creatives 2019.
+                       </p>
+                    </div>
+                 </div>
+              </div>
+           </div>
+          </div>
+        </div>
+       </footer>     
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

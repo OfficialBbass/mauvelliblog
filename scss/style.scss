@@ -1,9 +1,9 @@
 
 
-$primaryBtn: rgb(240, 160, 1);
-$primary-color	: #ffba00;
+$primaryBtn: #ac8009;
+$primary-color	: #ac8009;
 $text-color		: #777777;
-$primary-color2	: #ff6c00;
+$primary-color2	:#ac8009;
 $primary-color3	: #828bb3;
 $title-color	: #eee5e5;
 $text-color		: #777777;
@@ -17,6 +17,7 @@ $offwhite: #fcfcfc;
 @import "./header";
 @import "./carousel";
 @import "./jumbotron";
+@import "./contact";
 @import "./bob";
 @import "./quotes";
 @import "./blogarea";

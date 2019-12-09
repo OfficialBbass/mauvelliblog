@@ -1,0 +1,12 @@
+.custom-navbar{box-shadow: 5px 5px 5px #ac8009;background-color: #fff}
+.custom-navbar  li a:hover {
+    color: #bc481a !important;
+}
+.nav-link{color: #ac8009!important;}
+.custom-toggler.navbar-toggler {border-color: rgb(247,32,78);}
+.custom-toggler .navbar-toggler-icon {background-color: #ac8009;}
+.custom-toggler .navbar-toggler-icon{width: 18px!important;}
+.custom-toggler:hover{border-color: #d8d6d0; background-color: #ac8009;}
+.navbar-toggler-icon:hover{background-color:#ac8009;}
+@media only screen and (max-width: 760px) { #logo_custom{width: 40%;}}
+                          
